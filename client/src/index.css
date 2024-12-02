@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: 'Encode-Sans-Expanded' -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size:16px;
+    color:black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.registration-container{
+  color:white;
+  position:relative;
+  top:30px;
+  left:30%;
+  display:flex;
+  flex-flow:nowrap column;
+  align-items:center;
+}
+.registration-form{
+  display:flex;
+  flex-flow:column nowrap;
+  background-color:rgb(53, 8, 95);
+}
+.brand-title{
+  display:inline-block;
+  box-sizing: border-box;
+  font-size:2rem;
+  font-weight:700;
+}
+.form-title{
+  font-size:1.5rem;
+  text-align: center;
+}
+.brand-title-green{
+  color:green;
+}
+.brand-title-purple{
+  color:rgb(111, 7, 175)
+}
+.input{
+  display:flex;
+  flex-flow:row wrap;
+}
+.input>*{
+  width:100%;
+}
+.input>*:first-child{
+  margin-bottom:2%;
+}
+.input>*:nth-child(2){
+  height:30px;
+}
+input{
+  color:black
+}
+
